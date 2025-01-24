@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Playfair Display;
+    
+}
+body{
+background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+.navbar{
+    height: 65px;
+    justify-content: space-between;
+    margin: 15px 25px 0px -150px;
+    width: 100%;
+    position: relative;
+
+}
+@media(min-width:1000px){
+    .navbar{
+        display:flex ;
+    }
+}
+.home{
+    background:linear-gradient(rgba(12, 7, 7, 0.861),rgba(0, 0, 0, 0.857));
+    position: fixed;
+    width: 100%;
+}
+.port{
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+    background-color: greenyellow;
+    width: 140px;
+    height: 25px;
+    padding: 0px 0px 0px 15px;
+    position: absolute;
+    transform: translatex(170px)  ;
+    transition: all 2s ease-in;
+    font-size: larger;
+  cursor: pointer;
+}
+.but{
+    display: flex;
+    gap: 25px;
+}
+.list{
+    position: relative;
+    left:48%;
+    margin-top: 0px;
+}
+.list ul{
+    color: rgb(137, 255, 94);
+    display: flex;
+    list-style: none;
+    margin-top: -68px;
+    gap: 48px;
+    transform: translatey(55px)  ;
+    transition: all 2s ease-in;
+   
+}
+.list ul li{
+    cursor:pointer
+}
+.line{
+    width: 250;
+    height: 23px;
+    background-color: rgb(153, 255, 0);
+    margin-top: 10px;
+    position: absolute;
+
+}
+
+.con{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    margin-right: 35px;
+    width: 140px;
+    height: 25px;
+    text-align: right;
+    padding: 0px 15px 0px 5px;
+    position: absolute;
+    left: 115%;
+    transform: translatex(-190px)  ;
+    transition: all 2s ease-in;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.text{
+    color: white;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+ .text h1{
+    font-size: 45px;
+    margin: -10px;
+ }
+.text h5{
+    font-size: 30px;
+    margin: -10px;
+}
+.text span{
+    margin-left: 9px;
+    color:rgb(42, 212, 119);
+}
+.notify button{
+    background: transparent;
+    color: rgb(42, 212, 119);
+    padding: 7px;
+    border: 1px solid rgb(42, 212, 119);
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.notify button a{
+    text-decoration:none ;
+    color: rgb(42, 212, 119);
+}
+.notify button:hover{
+    background-color: rgb(42, 212, 119);
+    color: black;
+}
+main{
+    margin: 10px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;  
+}
+.space1{
+    width: 100%;
+    height: 120px;
+}
+.circle{
+    width: 250px;
+    height: 290px;
+    margin-right: 65px;
+    background-color: rgb(224, 144, 69);
+    border: 3px solid rgb(42, 212, 119);
+    border-radius: 550px;
+    overflow: hidden;
+    box-shadow:
+     0px 0px  15px rgb(42, 212, 119), 
+    0px 0px 12px rgb(42, 212, 119)
+    ,0px  0px 2px rgb(42, 212, 119)
+    ,0px  0px 2px rgb(42, 212, 119);
+}
+.pic img{
+    margin-top: -160px;
+    margin-left: -110px;
+    
+}
+#pic2{
+    margin-top: 55px
+}
+#img2{
+    margin-top: -130px;
+    margin-left: -70px;
+}
+
+.about{
+    margin:  40px 65px 95px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abo{
+    color :white;
+    margin-left: 95px;
+}
+.abo h1{
+    color:rgb(42, 212, 119);
+    margin-left: 35%;
+}
+#vs{
+    margin-left: 31%
+}
+.skill h1{
+    color: rgb(42, 212, 119);
+    margin-left: 43%;
+    
+}
+.space{
+    width: 100%;
+    height: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.technical{
+    position: relative;
+}
+.technical h2{
+    color: rgb(42, 212, 119);
+}
+.technical ul li{
+    color: white;
+}
+
+.professional h2{
+    color: rgb(42, 212, 119);
+}
+.pskill{
+    color: white;
+}
+.projects{
+    width: 100%;
+    height:400px;
+    background-color: black;
+    margin: 80px 0px 0px 0px;
+    padding: 90px 0px 0px 38px;
+    justify-content: space-around;
+    align-items: center;
+}
+.po{
+    display: flex;
+    width: 100%;
+
+}
+.prohe{
+    text-align: center;
+    color: rgb(42, 212, 119);
+}
+#con1{
+    margin-bottom: 40px;
+}
+.one{
+    width: 220px;
+    height:240px;
+    background: linear-gradient(rgba(130, 73, 73, 0.3),rgba(101, 97, 97, 0.3)) ;
+    margin: 30px 15px 0px 9%;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius:5px;
+    align-content: center;
+}
+.one button{
+    margin-top: 10px;
+    background-color: rgb(51, 48, 48);
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 30%;
+    display: inline;
+
+}
+.expo{
+    width: 203px;
+    height: 23%;
+    overflow: hidden;
+    align-self: baseline;
+    
+}
+.expo a{
+    text-decoration: none;
+    color: rgb(42, 212, 119);
+}
+.im img{
+    width: 120px;
+   
+}
+.im{
+    width: 203px;
+    height:77%;
+   margin: 20px 0px -29px 39px;
+   
+    
+}
+.two{
+    width: 220px;
+    height:240px;
+    background: linear-gradient(rgba(130, 73, 73, 0.3),rgba(101, 97, 97, 0.3)) ;
+    margin: 30px 15px;
+    padding: 5px;
+    border: 3px solid black;
+    padding-bottom:5px ;
+    border-radius:5px;
+   align-content: center;
+}
+.two button{
+    background-color: rgb(51, 48, 48);
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.three{
+    width: 220px;
+    height:240px;
+    background: linear-gradient(rgba(130, 73, 73, 0.3),rgba(101, 97, 97, 0.3)) ;
+    margin: 30px 15px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius:5px;
+    align-content: center;
+}
+.three button{
+    background-color: rgb(51, 48, 48);
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 10px;
+
+}
+.four{
+    width: 220px;
+    height:240px;
+    background:linear-gradient(rgba(130, 73, 73, 0.3),rgba(101, 97, 97, 0.3)) ;
+    margin: 30px 15px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius:5px;
+    align-content: center;
+
+}
+.four img{
+    width: 210px;
+    margin-left: -30px;
+}
+.four button{
+    background-color: rgb(51, 48, 48);
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 10px;
+
+}
+.contact{
+    width: 100%;
+    height:600px;
+    background-color: black;
+    margin: 80px 0px 0px 0px;
+    padding: 90px 0px 0px 38px;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact h1{
+    color:rgb(42, 212, 119) ;
+    margin: 0% 0% 0% 0%;
+}
+
